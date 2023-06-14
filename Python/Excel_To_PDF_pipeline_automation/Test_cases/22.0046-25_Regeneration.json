@@ -1,0 +1,8 @@
+{
+"path" : "D:\\STUDIES\\22.0046-25\\all_tif_cleaned\\out\\crop\\c10_final\\jpg", 
+"stdyno" : "22.0046-25",
+"Extension" : "*.jpg",
+"RANDOM" : "D:\\Software_test_sample_data\\Dev_Proj_5__ExcelToPdfConverter\\RDM_files\\22.0046-25_Random.txt",
+"No_marketing" : "False",
+"MASK" : "S[0-9]{3}F[0-9]{2}T[0-9]{2}[a-zA-Z0-9\\-^_]*"
+}
