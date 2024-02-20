@@ -17,15 +17,51 @@ a:link {
 
 /* visited link */
 a:visited {
-    color:green;
+    color: black;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color:  black;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: black;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.rounded-input{
+    display: flex;
+    z-index: 3;
+    height: 50px;
+    min-height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px; 
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 584px;
+    max-width: 584px;
+}
+.btn-google{
+    display: flex;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
 }
