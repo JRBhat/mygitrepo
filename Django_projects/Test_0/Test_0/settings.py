@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'hello',
+    'festivals_of_india',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

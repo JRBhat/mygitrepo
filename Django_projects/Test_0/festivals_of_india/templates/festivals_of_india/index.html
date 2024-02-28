@@ -1,0 +1,14 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Indian Festivals</title>
+        <link href="{% static 'festivals_of_india/styles.css' %}" rel="styleseet"><!-- NOTE:  Django best practice to not hardcode stylesheet url/path-->
+    </head>
+    <body>
+        <h1>Today is</h1>
+        <br>
+        <h1>{{ name }}!</h1>
+    </body>
+</html>
