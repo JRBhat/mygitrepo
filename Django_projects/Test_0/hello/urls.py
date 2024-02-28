@@ -5,4 +5,3 @@ urlpatterns = [
     path("", views.index, name="index"),
     path("jb", views.jb, name="jb")
     ]
-
